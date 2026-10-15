@@ -1,0 +1,59 @@
+.gitignore
+  s_231221b99fcbf7::t_0956e8d217c5d6 1-3
+.guardrail/deploys/2026-10-15T17-31-07-705Z.json
+  s_231221b99fcbf7::t_28b218a396a0b1 1-34
+.guardrail/deploys/2026-10-15T17-31-11-822Z.json
+  s_231221b99fcbf7::t_ea5330e0a3663b 1-34
+.guardrail/deploys/2026-10-15T17-31-24-913Z.json
+  s_231221b99fcbf7::t_1b3eeb4275b5cf 1-29
+.guardrail/deploys/2026-10-15T17-31-31-012Z.json
+  s_231221b99fcbf7::t_a39bf42d3a84c6 1-29
+README.md
+  s_231221b99fcbf7::t_21ed36471f4de9 1-9
+client/index.html
+  s_231221b99fcbf7::t_297dc76a668ea8 1-15
+client/src/entry.ts
+  s_231221b99fcbf7::t_0a2705f028af35 1-8
+client/src/hud.ts
+  s_ca5a6532cca4b3::t_c42652537244c1 1-115
+client/src/stage.ts
+  s_ca5a6532cca4b3::t_e9cb2721a01081 1-138
+client/src/style.css
+  s_231221b99fcbf7::t_d772cfdc202c8e 1
+src/index.ts
+  s_231221b99fcbf7::t_39a0c3108b3d48 1-9
+test/strings.test.ts
+  s_231221b99fcbf7::t_6127577e615456 1-38
+tsconfig.json
+  s_231221b99fcbf7::t_8d5f74492d7c82 1-15
+vite.config.ts
+  s_231221b99fcbf7::t_62cfd5dae6aab5 1-10
+vitest.config.ts
+  s_231221b99fcbf7::t_083c640b39e4fb 1-3
+wrangler.jsonc
+  s_231221b99fcbf7::t_1cafd30d114d85 1-7
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "8eef1c47808675f8e3f4858942c6eb2abb634851",
+  "prompts": {},
+  "sessions": {
+    "s_231221b99fcbf7": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a1176a-4538-7369-8003-75cbe8c7d418",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jordan Coeyman <jcoeyman@cloudflare.com>"
+    },
+    "s_ca5a6532cca4b3": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a13c32-5367-7000-8a26-f0799dfcdedc",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jordan Coeyman <jcoeyman@cloudflare.com>"
+    }
+  }
+}
