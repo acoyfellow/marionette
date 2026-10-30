@@ -1,0 +1,185 @@
+.gitignore
+  s_7941ce0d83409c::t_29cadba56722aa 1-15
+LICENSE
+  s_7941ce0d83409c::t_29e9631df0c3b7 1-21
+README.md
+  s_7941ce0d83409c::t_70d094e2393f29 1-43
+client/index.html
+  s_7941ce0d83409c::t_0334fb4eb02d97 1-42
+client/src/cells.ts
+  s_7941ce0d83409c::t_3601a442f4db10 1-85
+client/src/entry.ts
+  s_7941ce0d83409c::t_5f8d12ef8f8d2e 1-122
+client/src/hud.ts
+  s_7941ce0d83409c::t_7af60946a6199e 1-115
+client/src/kit.ts
+  s_7941ce0d83409c::t_f6039b479d636a 1-96
+client/src/lab/court.ts
+  s_7941ce0d83409c::t_ad5bca57e33830 1-569
+client/src/lab/loop.ts
+  s_7941ce0d83409c::t_e654ddb3b2c733 1-123
+client/src/lab/page.ts
+  s_7941ce0d83409c::t_94a0530d3b4fd6 1-569
+client/src/lab/plus-page.ts
+  s_7941ce0d83409c::t_b746f018e5e694 1-296
+client/src/lab/plus.ts
+  s_7941ce0d83409c::t_0dc06c110c8c0b 1-109
+client/src/lab/worker.ts
+  s_7941ce0d83409c::t_2c62153687701e 1-10
+client/src/pages/balancer.ts
+  s_7941ce0d83409c::t_b4f8a2793b5c84 1-118
+client/src/pages/cache.ts
+  s_7941ce0d83409c::t_963e4bafe9e795 1-121
+client/src/pages/cruise.ts
+  s_7941ce0d83409c::t_37ad1febf1c378 1-106
+client/src/pages/drawbridge.ts
+  s_7941ce0d83409c::t_02ae21be595af1 1-142
+client/src/pages/drone.ts
+  s_7941ce0d83409c::t_a87e471a55fe81 1-130
+client/src/pages/drums.ts
+  s_7941ce0d83409c::t_584405da8656f3 1-152
+client/src/pages/elevator.ts
+  s_7941ce0d83409c::t_83e66e2d160cfe 1-141
+client/src/pages/fireflies.ts
+  s_7941ce0d83409c::t_2c35e89fa70d15 1-104
+client/src/pages/garage.ts
+  s_7941ce0d83409c::t_d70a908653ab67 1-148
+client/src/pages/index.ts
+  s_7941ce0d83409c::t_5a552a94612dd4 1-54
+client/src/pages/insulin.ts
+  s_7941ce0d83409c::t_d17de044b65c2d 1-114
+client/src/pages/life.ts
+  s_7941ce0d83409c::t_1c73f5aa3e5e6b 1-108
+client/src/pages/oven.ts
+  s_7941ce0d83409c::t_e91fa7d9dd87c4 1-107
+client/src/pages/pacemaker.ts
+  s_7941ce0d83409c::t_1728b677e18a58 1-104
+client/src/pages/parking.ts
+  s_7941ce0d83409c::t_885bea7b81004b 1-94
+client/src/pages/pinball.ts
+  s_7941ce0d83409c::t_d35662e54cb34d 1-159
+client/src/pages/plant.ts
+  s_7941ce0d83409c::t_1062c2c7e6b55b 1-111
+client/src/pages/queue.ts
+  s_7941ce0d83409c::t_6dba775ca5d45a 1-107
+client/src/pages/railway.ts
+  s_7941ce0d83409c::t_db03ad9e650c40 1-145
+client/src/pages/safe.ts
+  s_7941ce0d83409c::t_b028a505a038e9 1-116
+client/src/pages/sorter.ts
+  s_7941ce0d83409c::t_6247af7d4bb989 1-138
+client/src/pages/survival.ts
+  s_7941ce0d83409c::t_fb1804375eaffc 1-147
+client/src/pages/thermostat.ts
+  s_7941ce0d83409c::t_01656a14485215 1-111
+client/src/pages/vending.ts
+  s_7941ce0d83409c::t_e1504f6dccee0a 1-127
+client/src/pages/waf.ts
+  s_7941ce0d83409c::t_9960bf854d38c9 1-115
+client/src/pages/washer.ts
+  s_7941ce0d83409c::t_6aaad3a6cd3e91 1-117
+client/src/panel.ts
+  s_7941ce0d83409c::t_675d4cd24add6c 1-77
+client/src/pet-page.ts
+  s_7941ce0d83409c::t_c67b25c9f101e5 1-75
+client/src/pet.ts
+  s_7941ce0d83409c::t_dc55f328d80d7f 1-94
+client/src/scene.ts
+  s_7941ce0d83409c::t_7e3817a8eb9751 1-74
+client/src/stage.ts
+  s_7941ce0d83409c::t_3ef6f60d840637 1-138
+client/src/strings.ts
+  s_7941ce0d83409c::t_b6d26be4ee0e3f 1-335
+client/src/style.css
+  s_7941ce0d83409c::t_134dffa76b0037 1
+client/src/ticker.ts
+  s_7941ce0d83409c::t_8b29cf4b082738 1-103
+client/src/traffic-page.ts
+  s_7941ce0d83409c::t_be9f0928b18c45 1-97
+client/src/traffic.ts
+  s_7941ce0d83409c::t_7ebf3877f7e38b 1-102
+package-lock.json
+  s_7941ce0d83409c::t_fe1001fa082c73 1-3931
+package.json
+  s_7941ce0d83409c::t_0667b6a22c93d8 1-40
+scripts/deploy.sh
+  s_7941ce0d83409c::t_7777ea785cbbd6 1-7
+scripts/gate-pages.mjs
+  s_7941ce0d83409c::t_d58591220342a0 1-87
+spikes/arena/behave.ts
+  s_7941ce0d83409c::t_aa69bb5f492f24 1-102
+spikes/arena/ground.ts
+  s_7941ce0d83409c::t_3119ac18038d1b 1-56
+spikes/arena/hunt-haiku.jsonl
+  s_7941ce0d83409c::t_18a138541ff1af 1-44
+spikes/arena/hunt.jsonl
+  s_7941ce0d83409c::t_db1bbc161e5f34 1-146
+spikes/arena/hunt.mjs
+  s_7941ce0d83409c::t_d54b831af9413e 1-114
+spikes/arena/lib.mjs
+  s_7941ce0d83409c::t_32610986500a33 1-91
+spikes/arena/plant.mjs
+  s_7941ce0d83409c::t_36f9f738edd91c 1-58
+spikes/arena/recall.jsonl
+  s_7941ce0d83409c::t_f7a57e9f8c6dca 1-31
+spikes/arena/recall.ts
+  s_7941ce0d83409c::t_0e37c15a7d9de9 1-77
+spikes/arena/rescore.json
+  s_7941ce0d83409c::t_5491a396e0ce00 1-36
+spikes/arena/rescore.py
+  s_7941ce0d83409c::t_954d65f03df807 1-29
+spikes/arena/results.jsonl
+  s_7941ce0d83409c::t_929de68a859a10 1-218
+spikes/arena/verify.jsonl
+  s_7941ce0d83409c::t_99ed756dcb57e4 1-191
+spikes/arena/verify.ts
+  s_7941ce0d83409c::t_1ae4ae9d265b5e 1-85
+src/index.ts
+  s_7941ce0d83409c::t_95d28373879595 1-9
+test/batch2.test.ts
+  s_7941ce0d83409c::t_e1cb4a6854b3be 1-132
+test/batch3.test.ts
+  s_7941ce0d83409c::t_14583d43f139d3 1-125
+test/batch4.test.ts
+  s_7941ce0d83409c::t_c50bd6d933ac53 1-134
+test/batch5.test.ts
+  s_7941ce0d83409c::t_ff7141d0bb52af 1-166
+test/batch6.test.ts
+  s_7941ce0d83409c::t_06133897ff4da8 1-207
+test/batch7.test.ts
+  s_7941ce0d83409c::t_8e9700ea96b5d5 1-299
+test/court.test.ts
+  s_7941ce0d83409c::t_98580d4fd7d291 1-107
+test/pages.test.ts
+  s_7941ce0d83409c::t_57502958cf0fdc 1-110
+test/plus.test.ts
+  s_7941ce0d83409c::t_060793224b0cbf 1-40
+test/strings.test.ts
+  s_7941ce0d83409c::t_cd98218a2ec8ff 1-55
+test/survival.test.ts
+  s_7941ce0d83409c::t_67965e149b8615 1-65
+tsconfig.json
+  s_7941ce0d83409c::t_2f12fd2811c6f3 1-15
+vite.config.ts
+  s_7941ce0d83409c::t_f8df57d78538d1 1-11
+vitest.config.ts
+  s_7941ce0d83409c::t_ebc53ca37be108 1-3
+wrangler.jsonc
+  s_7941ce0d83409c::t_9332dd3e2e216a 1-8
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "4ee11d52f4d56ffceb169669a54e38c9635f1593",
+  "prompts": {},
+  "sessions": {
+    "s_7941ce0d83409c": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a18c22-7e75-7140-8651-cc23b1a5ae05",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jordan Coeyman <jcoeyman@cloudflare.com>"
+    }
+  }
+}
