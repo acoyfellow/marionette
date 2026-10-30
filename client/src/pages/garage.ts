@@ -8,35 +8,7 @@ import { createTicker, DT, gates, wiresOf } from '../ticker';
 export const DOOR = { speed: 0.35, beamHeight: 0.15 } as const;
 export const MOTION = { stopped: 0, opening: 1, closing: 2 } as const;
 
-export type Twist = {
-  readonly catLevel: number;
-  readonly beamZone: number;
-  readonly reverseTo: number;
-  readonly beamFirst: boolean;
-  readonly speed: number;
-  readonly endSnap: number;
-  readonly pressStops: boolean;
-  readonly oppositeSum: number;
-  readonly dirFromOpeningOnly: boolean;
-  readonly countStep: number;
-  readonly restBand: number;
-};
-
-export const REFERENCE: Twist = {
-  catLevel: 0.5,
-  beamZone: 4,
-  reverseTo: MOTION.opening,
-  beamFirst: false,
-  speed: DOOR.speed,
-  endSnap: 0.999,
-  pressStops: true,
-  oppositeSum: 3,
-  dirFromOpeningOnly: false,
-  countStep: 1,
-  restBand: 0.001,
-};
-
-export function buildGarage(twist: Twist = REFERENCE) {
+export function buildGarage() {
   const table = createSourceTable();
   const cells = table.declare({
     remote: event(),
@@ -53,27 +25,26 @@ export function buildGarage(twist: Twist = REFERENCE) {
   const stopped = is(cells.motion, MOTION.stopped);
   const opening = is(cells.motion, MOTION.opening);
   const closing = is(cells.motion, MOTION.closing);
-  const opposite = circuit.affine([[cells.lastDir, -1]], twist.oppositeSum);
+  const opposite = circuit.affine([[cells.lastDir, -1]], 3);
   const pressedWhileStopped = all(cells.remote, stopped);
   const pressedWhileMoving = all(cells.remote, not(stopped));
-  const beamBroken = all(closing, above(cells.blocked, twist.catLevel), below(cells.height, DOOR.beamHeight * twist.beamZone));
-  const moved = circuit.affine([[cells.height, 1], [opening, twist.speed * DT], [closing, -twist.speed * DT]]);
+  const beamBroken = all(closing, above(cells.blocked, 0.5), below(cells.height, DOOR.beamHeight * 4));
+  const moved = circuit.affine([[cells.height, 1], [opening, DOOR.speed * DT], [closing, -DOOR.speed * DT]]);
   const height = emitMaximum(circuit, c(0), emitMinimum(circuit, c(1), moved));
-  const reachedEnd = either(all(opening, above(moved, twist.endSnap)), all(closing, below(moved, 1 - twist.endSnap)));
+  const reachedEnd = either(all(opening, above(moved, 0.999)), all(closing, below(moved, 0.001)));
   const startMotion = emitSelect(circuit, above(cells.height, 0.5), c(MOTION.opening), c(MOTION.closing));
   const fromStop = emitSelect(circuit, above(circuit.affine([[cells.height, 1]], -0.001), 0), c(MOTION.opening), startMotion);
-  const resumed = emitSelect(circuit, all(above(cells.height, twist.restBand), below(cells.height, 1 - twist.restBand)), fromStop, opposite);
+  const resumed = emitSelect(circuit, all(above(cells.height, 0.001), below(cells.height, 0.999)), fromStop, opposite);
   let motion = cells.motion as ReturnType<typeof c>;
   motion = emitSelect(circuit, pressedWhileStopped, motion, resumed);
-  motion = emitSelect(circuit, pressedWhileMoving, motion, twist.pressStops ? c(MOTION.stopped) : opposite);
-  const reverse = (m: typeof motion) => emitSelect(circuit, beamBroken, m, c(twist.reverseTo));
-  const finish = (m: typeof motion) => emitSelect(circuit, reachedEnd, m, c(MOTION.stopped));
-  motion = twist.beamFirst ? finish(reverse(motion)) : reverse(finish(motion));
-  const lastDir = emitSelect(circuit, twist.dirFromOpeningOnly ? opening : either(opening, closing), cells.lastDir, cells.motion);
+  motion = emitSelect(circuit, pressedWhileMoving, motion, c(MOTION.stopped));
+  motion = emitSelect(circuit, reachedEnd, motion, c(MOTION.stopped));
+  motion = emitSelect(circuit, beamBroken, motion, c(MOTION.opening));
+  const lastDir = emitSelect(circuit, either(opening, closing), cells.lastDir, cells.motion);
   table.next(cells.height, height);
   table.next(cells.motion, motion);
   table.next(cells.lastDir, lastDir);
-  table.next(cells.reversals, circuit.affine([[cells.reversals, 1], [beamBroken, twist.countStep]]));
+  table.next(cells.reversals, circuit.affine([[cells.reversals, 1], [beamBroken, 1]]));
   const output = { height, motion, beamBroken, reversals: cells.reversals, blocked: cells.blocked };
   const layout = [
     { label: 'door', wires: wiresOf({ h: cells.height, m: cells.motion, d: cells.lastDir }) },
@@ -89,7 +60,7 @@ export function buildGarage(twist: Twist = REFERENCE) {
   };
 }
 
-export const createGarage = (twist: Twist = REFERENCE) => createTicker(buildGarage(twist));
+export const createGarage = () => createTicker(buildGarage());
 type Frame = ReturnType<ReturnType<typeof createGarage>['step']>;
 
 const MOTION_NAME = ['stopped', 'opening ↑', 'closing ↓'] as const;
