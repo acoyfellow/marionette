@@ -1,0 +1,15 @@
+node_modules
+dist
+.wrangler
+.real/
+spikes/predict/tape.jsonl
+spikes/arena/box/
+.DS_Store
+.pi/
+.guardrail/
+.guardrail-staged.*
+receipts/
+spikes/predict/
+spikes/LAB-BRIEF.md
+spikes/arena/*.log
+.alchemy/

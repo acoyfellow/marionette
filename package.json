@@ -1,0 +1,40 @@
+{
+  "name": "marionette",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 5180 --strictPort",
+    "build": "vite build",
+    "typecheck": "tsc -p .",
+    "test": "vitest run",
+    "gate:pages": "tsc -p . && vitest run && node scripts/gate-pages.mjs http://localhost:5181",
+    "deploy": "./scripts/deploy.sh"
+  },
+  "dependencies": {
+    "effect": "^4.0.0",
+    "foldkit": "^0.166.0",
+    "handwired": "github:chenglou/handwired#4ea7fcb",
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.5.15",
+    "@cloudflare/vite-plugin": "^1.64.0",
+    "@cloudflare/workers-types": "^5.20261015.1",
+    "@foldkit/vite-plugin": "^0.26.1",
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/three": "^0.186.0",
+    "playwright": "^1.64.0",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^5.9.3",
+    "vite": "^8.3.3",
+    "vitest": "^5.0.5",
+    "wrangler": "^4.151.0"
+  },
+  "license": "MIT",
+  "description": "Hard ideas you can poke: hand-wired circuits, replayable bit for bit.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/acoyfellow/marionette"
+  }
+}

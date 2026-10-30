@@ -1,0 +1,36 @@
+{
+ "sonnet": {
+  "tasks": 146,
+  "visible_bugs": 52,
+  "invisible_bugs": 21,
+  "claims": 67,
+  "raw_precision": "27/67",
+  "grounded_claims": 22,
+  "grounded_by_verdict": {
+   "found": 22,
+   "wrong-line": 0,
+   "false-alarm": 0
+  },
+  "false_alarms_rejected": "19/19",
+  "recall_raw_visible": "22/52",
+  "recall_grounded_visible": "22/52",
+  "found_on_invisible": 5
+ },
+ "haiku": {
+  "tasks": 44,
+  "visible_bugs": 14,
+  "invisible_bugs": 7,
+  "claims": 35,
+  "raw_precision": "1/35",
+  "grounded_claims": 1,
+  "grounded_by_verdict": {
+   "found": 1,
+   "wrong-line": 0,
+   "false-alarm": 0
+  },
+  "false_alarms_rejected": "20/20",
+  "recall_raw_visible": "1/14",
+  "recall_grounded_visible": "1/14",
+  "found_on_invisible": 0
+ }
+}

@@ -1,0 +1,191 @@
+{"id":"sonnet:drone#clean2","model":"sonnet","task":"drone#clean2","slug":"drone","kind":"clean","verdict":"clean-ok","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:plant#5","model":"sonnet","task":"plant#5","slug":"plant","kind":"number 1→2","verdict":"wrong-line","claimed":true,"grounded":false,"tried":55,"equivalentMutant":false}
+{"id":"sonnet:cruise#7","model":"sonnet","task":"cruise#7","slug":"cruise","kind":"number 0→1","verdict":"missed","claimed":false,"grounded":false,"tried":0,"equivalentMutant":true}
+{"id":"sonnet:cache#clean0","model":"sonnet","task":"cache#clean0","slug":"cache","kind":"clean","verdict":"clean-ok","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:balancer#2","model":"sonnet","task":"balancer#2","slug":"balancer","kind":"number 1→2","verdict":"wrong-line","claimed":true,"grounded":false,"tried":57,"equivalentMutant":false}
+{"id":"sonnet:balancer#clean1","model":"sonnet","task":"balancer#clean1","slug":"balancer","kind":"clean","verdict":"false-alarm","claimed":true,"grounded":true,"tried":6,"equivalentMutant":false}
+{"id":"sonnet:survival#clean2","model":"sonnet","task":"survival#clean2","slug":"survival","kind":"clean","verdict":"clean-ok","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:drone#clean0","model":"sonnet","task":"drone#clean0","slug":"drone","kind":"clean","verdict":"clean-ok","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:balancer#clean0","model":"sonnet","task":"balancer#clean0","slug":"balancer","kind":"clean","verdict":"false-alarm","claimed":true,"grounded":true,"tried":4,"equivalentMutant":false}
+{"id":"sonnet:cruise#clean1","model":"sonnet","task":"cruise#clean1","slug":"cruise","kind":"clean","verdict":"clean-ok","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:cache#clean5","model":"sonnet","task":"cache#clean5","slug":"cache","kind":"clean","verdict":"clean-ok","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:fireflies#9","model":"sonnet","task":"fireflies#9","slug":"fireflies","kind":"number 7→8","verdict":"wrong-line","claimed":true,"grounded":false,"tried":0,"equivalentMutant":true}
+{"id":"sonnet:balancer#clean4","model":"sonnet","task":"balancer#clean4","slug":"balancer","kind":"clean","verdict":"false-alarm","claimed":true,"grounded":true,"tried":4,"equivalentMutant":false}
+{"id":"sonnet:survival#6","model":"sonnet","task":"survival#6","slug":"survival","kind":"number 0→1","verdict":"missed","claimed":false,"grounded":false,"tried":0,"equivalentMutant":true}
+{"id":"sonnet:fireflies#clean0","model":"sonnet","task":"fireflies#clean0","slug":"fireflies","kind":"clean","verdict":"clean-ok","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:railway#6","model":"sonnet","task":"railway#6","slug":"railway","kind":"number 0→1","verdict":"wrong-line","claimed":true,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:drawbridge#clean3","model":"sonnet","task":"drawbridge#clean3","slug":"drawbridge","kind":"clean","verdict":"clean-ok","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:drawbridge#3","model":"sonnet","task":"drawbridge#3","slug":"drawbridge","kind":"number 0→1","verdict":"missed","claimed":false,"grounded":false,"tried":0,"equivalentMutant":true}
+{"id":"sonnet:insulin#2","model":"sonnet","task":"insulin#2","slug":"insulin","kind":"number 0.6→0.75","verdict":"wrong-line","claimed":true,"grounded":false,"tried":54,"equivalentMutant":false}
+{"id":"sonnet:drone#0","model":"sonnet","task":"drone#0","slug":"drone","kind":"number 1→2","verdict":"found","claimed":true,"grounded":true,"tried":9,"equivalentMutant":false}
+{"id":"sonnet:drums#clean0","model":"sonnet","task":"drums#clean0","slug":"drums","kind":"clean","verdict":"clean-ok","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:drums#clean1","model":"sonnet","task":"drums#clean1","slug":"drums","kind":"clean","verdict":"clean-ok","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:cache#8","model":"sonnet","task":"cache#8","slug":"cache","kind":"number 1→2","verdict":"missed","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:survival#3","model":"sonnet","task":"survival#3","slug":"survival","kind":"number 0.5→0.625","verdict":"missed","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:cache#clean4","model":"sonnet","task":"cache#clean4","slug":"cache","kind":"clean","verdict":"clean-ok","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:survival#1","model":"sonnet","task":"survival#1","slug":"survival","kind":"number 0→1","verdict":"wrong-line","claimed":true,"grounded":false,"tried":19,"equivalentMutant":false}
+{"id":"sonnet:cruise#2","model":"sonnet","task":"cruise#2","slug":"cruise","kind":"number 0.4→0.5","verdict":"missed","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:cache#clean1","model":"sonnet","task":"cache#clean1","slug":"cache","kind":"clean","verdict":"clean-ok","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:garage#clean0","model":"sonnet","task":"garage#clean0","slug":"garage","kind":"clean","verdict":"false-alarm","claimed":true,"grounded":false,"tried":20,"equivalentMutant":false}
+{"id":"sonnet:insulin#clean1","model":"sonnet","task":"insulin#clean1","slug":"insulin","kind":"clean","verdict":"false-alarm","claimed":true,"grounded":true,"tried":8,"equivalentMutant":false}
+{"id":"sonnet:insulin#clean3","model":"sonnet","task":"insulin#clean3","slug":"insulin","kind":"clean","verdict":"clean-ok","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:queue#clean1","model":"sonnet","task":"queue#clean1","slug":"queue","kind":"clean","verdict":"false-alarm","claimed":true,"grounded":false,"tried":42,"equivalentMutant":false}
+{"id":"sonnet:pinball#6","model":"sonnet","task":"pinball#6","slug":"pinball","kind":"number 40→41","verdict":"found","claimed":true,"grounded":true,"tried":3,"equivalentMutant":true}
+{"id":"sonnet:drums#6","model":"sonnet","task":"drums#6","slug":"drums","kind":"number 2→3","verdict":"found","claimed":true,"grounded":true,"tried":13,"equivalentMutant":false}
+{"id":"sonnet:cache#clean3","model":"sonnet","task":"cache#clean3","slug":"cache","kind":"clean","verdict":"clean-ok","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:insulin#4","model":"sonnet","task":"insulin#4","slug":"insulin","kind":"number 1→2","verdict":"wrong-line","claimed":true,"grounded":false,"tried":19,"equivalentMutant":false}
+{"id":"sonnet:drawbridge#clean2","model":"sonnet","task":"drawbridge#clean2","slug":"drawbridge","kind":"clean","verdict":"clean-ok","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:drums#clean2","model":"sonnet","task":"drums#clean2","slug":"drums","kind":"clean","verdict":"clean-ok","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:drums#clean3","model":"sonnet","task":"drums#clean3","slug":"drums","kind":"clean","verdict":"clean-ok","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:drawbridge#7","model":"sonnet","task":"drawbridge#7","slug":"drawbridge","kind":"number 0→1","verdict":"missed","claimed":false,"grounded":false,"tried":0,"equivalentMutant":true}
+{"id":"sonnet:drums#9","model":"sonnet","task":"drums#9","slug":"drums","kind":"number 1→2","verdict":"missed","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:cruise#clean3","model":"sonnet","task":"cruise#clean3","slug":"cruise","kind":"clean","verdict":"clean-ok","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:safe#0","model":"sonnet","task":"safe#0","slug":"safe","kind":"number 0→1","verdict":"found","claimed":true,"grounded":true,"tried":73,"equivalentMutant":false}
+{"id":"sonnet:safe#9","model":"sonnet","task":"safe#9","slug":"safe","kind":"select swap","verdict":"missed","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:drums#0","model":"sonnet","task":"drums#0","slug":"drums","kind":"number 1→2","verdict":"found","claimed":true,"grounded":true,"tried":56,"equivalentMutant":false}
+{"id":"sonnet:balancer#0","model":"sonnet","task":"balancer#0","slug":"balancer","kind":"number 1000→1001","verdict":"wrong-line","claimed":true,"grounded":true,"tried":4,"equivalentMutant":true}
+{"id":"sonnet:parking#clean0","model":"sonnet","task":"parking#clean0","slug":"parking","kind":"clean","verdict":"clean-ok","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:plant#clean1","model":"sonnet","task":"plant#clean1","slug":"plant","kind":"clean","verdict":"false-alarm","claimed":true,"grounded":true,"tried":7,"equivalentMutant":false}
+{"id":"sonnet:elevator#clean0","model":"sonnet","task":"elevator#clean0","slug":"elevator","kind":"clean","verdict":"clean-ok","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:safe#2","model":"sonnet","task":"safe#2","slug":"safe","kind":"number 1→2","verdict":"missed","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:garage#5","model":"sonnet","task":"garage#5","slug":"garage","kind":"number 0.5→0.625","verdict":"found","claimed":true,"grounded":true,"tried":26,"equivalentMutant":false}
+{"id":"sonnet:fireflies#clean1","model":"sonnet","task":"fireflies#clean1","slug":"fireflies","kind":"clean","verdict":"clean-ok","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:queue#5","model":"sonnet","task":"queue#5","slug":"queue","kind":"number 0.25→0.3125","verdict":"wrong-line","claimed":true,"grounded":false,"tried":73,"equivalentMutant":false}
+{"id":"sonnet:elevator#8","model":"sonnet","task":"elevator#8","slug":"elevator","kind":"number 1→2","verdict":"found","claimed":true,"grounded":true,"tried":8,"equivalentMutant":false}
+{"id":"sonnet:oven#6","model":"sonnet","task":"oven#6","slug":"oven","kind":"number 0.2→0.25","verdict":"found","claimed":true,"grounded":true,"tried":39,"equivalentMutant":false}
+{"id":"sonnet:insulin#5","model":"sonnet","task":"insulin#5","slug":"insulin","kind":"number 3→4","verdict":"wrong-line","claimed":true,"grounded":false,"tried":94,"equivalentMutant":false}
+{"id":"sonnet:pinball#2","model":"sonnet","task":"pinball#2","slug":"pinball","kind":"number 0.6→0.75","verdict":"missed","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:survival#clean1","model":"sonnet","task":"survival#clean1","slug":"survival","kind":"clean","verdict":"clean-ok","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:garage#2","model":"sonnet","task":"garage#2","slug":"garage","kind":"number 1→2","verdict":"found","claimed":true,"grounded":true,"tried":6,"equivalentMutant":false}
+{"id":"sonnet:fireflies#8","model":"sonnet","task":"fireflies#8","slug":"fireflies","kind":"number 1→2","verdict":"found","claimed":true,"grounded":true,"tried":14,"equivalentMutant":false}
+{"id":"sonnet:cache#0","model":"sonnet","task":"cache#0","slug":"cache","kind":"number 1→2","verdict":"wrong-line","claimed":true,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:fireflies#7","model":"sonnet","task":"fireflies#7","slug":"fireflies","kind":"number 6→7","verdict":"found","claimed":true,"grounded":true,"tried":1,"equivalentMutant":true}
+{"id":"sonnet:balancer#clean2","model":"sonnet","task":"balancer#clean2","slug":"balancer","kind":"clean","verdict":"false-alarm","claimed":true,"grounded":true,"tried":7,"equivalentMutant":false}
+{"id":"sonnet:plant#clean0","model":"sonnet","task":"plant#clean0","slug":"plant","kind":"clean","verdict":"false-alarm","claimed":true,"grounded":true,"tried":8,"equivalentMutant":false}
+{"id":"sonnet:drawbridge#4","model":"sonnet","task":"drawbridge#4","slug":"drawbridge","kind":"number 0→1","verdict":"missed","claimed":false,"grounded":false,"tried":0,"equivalentMutant":true}
+{"id":"sonnet:plant#8","model":"sonnet","task":"plant#8","slug":"plant","kind":"number 0.06→0.075","verdict":"wrong-line","claimed":true,"grounded":false,"tried":65,"equivalentMutant":false}
+{"id":"sonnet:insulin#1","model":"sonnet","task":"insulin#1","slug":"insulin","kind":"number 1→2","verdict":"missed","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:garage#clean2","model":"sonnet","task":"garage#clean2","slug":"garage","kind":"clean","verdict":"false-alarm","claimed":true,"grounded":false,"tried":20,"equivalentMutant":false}
+{"id":"sonnet:sorter#clean0","model":"sonnet","task":"sorter#clean0","slug":"sorter","kind":"clean","verdict":"clean-ok","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:oven#clean0","model":"sonnet","task":"oven#clean0","slug":"oven","kind":"clean","verdict":"false-alarm","claimed":true,"grounded":true,"tried":46,"equivalentMutant":false}
+{"id":"sonnet:fireflies#clean4","model":"sonnet","task":"fireflies#clean4","slug":"fireflies","kind":"clean","verdict":"clean-ok","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:drone#5","model":"sonnet","task":"drone#5","slug":"drone","kind":"number 20→21","verdict":"found","claimed":true,"grounded":true,"tried":2,"equivalentMutant":true}
+{"id":"sonnet:sorter#clean2","model":"sonnet","task":"sorter#clean2","slug":"sorter","kind":"clean","verdict":"clean-ok","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:garage#1","model":"sonnet","task":"garage#1","slug":"garage","kind":"number 0.001→0.0013","verdict":"wrong-line","claimed":true,"grounded":false,"tried":20,"equivalentMutant":true}
+{"id":"sonnet:sorter#clean1","model":"sonnet","task":"sorter#clean1","slug":"sorter","kind":"clean","verdict":"clean-ok","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:cruise#clean4","model":"sonnet","task":"cruise#clean4","slug":"cruise","kind":"clean","verdict":"clean-ok","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:balancer#clean3","model":"sonnet","task":"balancer#clean3","slug":"balancer","kind":"clean","verdict":"false-alarm","claimed":true,"grounded":true,"tried":4,"equivalentMutant":false}
+{"id":"sonnet:safe#clean1","model":"sonnet","task":"safe#clean1","slug":"safe","kind":"clean","verdict":"clean-ok","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:elevator#3","model":"sonnet","task":"elevator#3","slug":"elevator","kind":"number 0→1","verdict":"missed","claimed":false,"grounded":false,"tried":0,"equivalentMutant":true}
+{"id":"sonnet:railway#9","model":"sonnet","task":"railway#9","slug":"railway","kind":"number 0.6→0.75","verdict":"missed","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:drone#clean1","model":"sonnet","task":"drone#clean1","slug":"drone","kind":"clean","verdict":"clean-ok","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:railway#4","model":"sonnet","task":"railway#4","slug":"railway","kind":"number 0→1","verdict":"missed","claimed":false,"grounded":false,"tried":0,"equivalentMutant":true}
+{"id":"sonnet:cruise#0","model":"sonnet","task":"cruise#0","slug":"cruise","kind":"number 0→1","verdict":"missed","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:balancer#7","model":"sonnet","task":"balancer#7","slug":"balancer","kind":"number 0→1","verdict":"wrong-line","claimed":true,"grounded":true,"tried":4,"equivalentMutant":true}
+{"id":"sonnet:pinball#5","model":"sonnet","task":"pinball#5","slug":"pinball","kind":"number 10→11","verdict":"found","claimed":true,"grounded":true,"tried":65,"equivalentMutant":false}
+{"id":"sonnet:insulin#clean2","model":"sonnet","task":"insulin#clean2","slug":"insulin","kind":"clean","verdict":"false-alarm","claimed":true,"grounded":true,"tried":8,"equivalentMutant":false}
+{"id":"sonnet:balancer#9","model":"sonnet","task":"balancer#9","slug":"balancer","kind":"number 1→2","verdict":"found","claimed":true,"grounded":true,"tried":13,"equivalentMutant":false}
+{"id":"sonnet:pinball#clean4","model":"sonnet","task":"pinball#clean4","slug":"pinball","kind":"clean","verdict":"clean-ok","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:plant#clean3","model":"sonnet","task":"plant#clean3","slug":"plant","kind":"clean","verdict":"false-alarm","claimed":true,"grounded":true,"tried":6,"equivalentMutant":false}
+{"id":"sonnet:railway#clean0","model":"sonnet","task":"railway#clean0","slug":"railway","kind":"clean","verdict":"clean-ok","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:cache#5","model":"sonnet","task":"cache#5","slug":"cache","kind":"number 1→2","verdict":"found","claimed":true,"grounded":true,"tried":35,"equivalentMutant":false}
+{"id":"sonnet:survival#clean0","model":"sonnet","task":"survival#clean0","slug":"survival","kind":"clean","verdict":"clean-ok","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:cache#4","model":"sonnet","task":"cache#4","slug":"cache","kind":"number 0→1","verdict":"missed","claimed":false,"grounded":false,"tried":0,"equivalentMutant":true}
+{"id":"sonnet:drawbridge#6","model":"sonnet","task":"drawbridge#6","slug":"drawbridge","kind":"number 2.2→2.75","verdict":"missed","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:elevator#clean2","model":"sonnet","task":"elevator#clean2","slug":"elevator","kind":"clean","verdict":"clean-ok","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:drawbridge#1","model":"sonnet","task":"drawbridge#1","slug":"drawbridge","kind":"number 0→1","verdict":"missed","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:insulin#9","model":"sonnet","task":"insulin#9","slug":"insulin","kind":"number 0.03→0.0375","verdict":"missed","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:cruise#1","model":"sonnet","task":"cruise#1","slug":"cruise","kind":"number 1→2","verdict":"found","claimed":true,"grounded":true,"tried":9,"equivalentMutant":false}
+{"id":"sonnet:cache#clean2","model":"sonnet","task":"cache#clean2","slug":"cache","kind":"clean","verdict":"clean-ok","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:sorter#6","model":"sonnet","task":"sorter#6","slug":"sorter","kind":"select swap","verdict":"missed","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:railway#clean3","model":"sonnet","task":"railway#clean3","slug":"railway","kind":"clean","verdict":"clean-ok","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:cruise#4","model":"sonnet","task":"cruise#4","slug":"cruise","kind":"number 1→2","verdict":"found","claimed":true,"grounded":true,"tried":6,"equivalentMutant":false}
+{"id":"sonnet:plant#clean2","model":"sonnet","task":"plant#clean2","slug":"plant","kind":"clean","verdict":"false-alarm","claimed":true,"grounded":true,"tried":8,"equivalentMutant":false}
+{"id":"sonnet:parking#9","model":"sonnet","task":"parking#9","slug":"parking","kind":"select swap","verdict":"wrong-line","claimed":true,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:cruise#clean2","model":"sonnet","task":"cruise#clean2","slug":"cruise","kind":"clean","verdict":"clean-ok","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:parking#5","model":"sonnet","task":"parking#5","slug":"parking","kind":"select swap","verdict":"wrong-line","claimed":true,"grounded":false,"tried":9,"equivalentMutant":false}
+{"id":"sonnet:pacemaker#clean0","model":"sonnet","task":"pacemaker#clean0","slug":"pacemaker","kind":"clean","verdict":"clean-ok","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:garage#clean1","model":"sonnet","task":"garage#clean1","slug":"garage","kind":"clean","verdict":"false-alarm","claimed":true,"grounded":true,"tried":26,"equivalentMutant":false}
+{"id":"sonnet:drawbridge#clean0","model":"sonnet","task":"drawbridge#clean0","slug":"drawbridge","kind":"clean","verdict":"clean-ok","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:fireflies#3","model":"sonnet","task":"fireflies#3","slug":"fireflies","kind":"number 6→7","verdict":"wrong-line","claimed":true,"grounded":false,"tried":19,"equivalentMutant":true}
+{"id":"sonnet:drone#4","model":"sonnet","task":"drone#4","slug":"drone","kind":"number 20→21","verdict":"found","claimed":true,"grounded":true,"tried":14,"equivalentMutant":false}
+{"id":"sonnet:parking#clean1","model":"sonnet","task":"parking#clean1","slug":"parking","kind":"clean","verdict":"clean-ok","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:cache#1","model":"sonnet","task":"cache#1","slug":"cache","kind":"number 1→2","verdict":"wrong-line","claimed":true,"grounded":false,"tried":0,"equivalentMutant":true}
+{"id":"sonnet:plant#1","model":"sonnet","task":"plant#1","slug":"plant","kind":"number 1→2","verdict":"found","claimed":true,"grounded":true,"tried":26,"equivalentMutant":false}
+{"id":"sonnet:elevator#5","model":"sonnet","task":"elevator#5","slug":"elevator","kind":"number 0→1","verdict":"missed","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:drawbridge#clean4","model":"sonnet","task":"drawbridge#clean4","slug":"drawbridge","kind":"clean","verdict":"clean-ok","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:drums#2","model":"sonnet","task":"drums#2","slug":"drums","kind":"number 1→2","verdict":"found","claimed":true,"grounded":true,"tried":64,"equivalentMutant":false}
+{"id":"sonnet:safe#clean0","model":"sonnet","task":"safe#clean0","slug":"safe","kind":"clean","verdict":"clean-ok","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:fireflies#clean3","model":"sonnet","task":"fireflies#clean3","slug":"fireflies","kind":"clean","verdict":"clean-ok","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:drawbridge#clean1","model":"sonnet","task":"drawbridge#clean1","slug":"drawbridge","kind":"clean","verdict":"clean-ok","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:pinball#clean0","model":"sonnet","task":"pinball#clean0","slug":"pinball","kind":"clean","verdict":"clean-ok","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:sorter#1","model":"sonnet","task":"sorter#1","slug":"sorter","kind":"number 1→2","verdict":"found","claimed":true,"grounded":true,"tried":27,"equivalentMutant":false}
+{"id":"sonnet:fireflies#clean2","model":"sonnet","task":"fireflies#clean2","slug":"fireflies","kind":"clean","verdict":"clean-ok","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:railway#clean1","model":"sonnet","task":"railway#clean1","slug":"railway","kind":"clean","verdict":"clean-ok","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:pacemaker#4","model":"sonnet","task":"pacemaker#4","slug":"pacemaker","kind":"select swap","verdict":"wrong-line","claimed":true,"grounded":false,"tried":0,"equivalentMutant":true}
+{"id":"sonnet:pinball#3","model":"sonnet","task":"pinball#3","slug":"pinball","kind":"number 0→1","verdict":"found","claimed":true,"grounded":true,"tried":19,"equivalentMutant":true}
+{"id":"sonnet:balancer#4","model":"sonnet","task":"balancer#4","slug":"balancer","kind":"number 1→2","verdict":"wrong-line","claimed":true,"grounded":false,"tried":18,"equivalentMutant":false}
+{"id":"sonnet:pinball#clean2","model":"sonnet","task":"pinball#clean2","slug":"pinball","kind":"clean","verdict":"clean-ok","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:elevator#clean1","model":"sonnet","task":"elevator#clean1","slug":"elevator","kind":"clean","verdict":"clean-ok","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:queue#7","model":"sonnet","task":"queue#7","slug":"queue","kind":"number 1→2","verdict":"wrong-line","claimed":true,"grounded":false,"tried":32,"equivalentMutant":false}
+{"id":"sonnet:pinball#9","model":"sonnet","task":"pinball#9","slug":"pinball","kind":"number 40→41","verdict":"found","claimed":true,"grounded":true,"tried":7,"equivalentMutant":true}
+{"id":"sonnet:parking#2","model":"sonnet","task":"parking#2","slug":"parking","kind":"number 0→1","verdict":"found","claimed":true,"grounded":true,"tried":10,"equivalentMutant":false}
+{"id":"sonnet:railway#clean2","model":"sonnet","task":"railway#clean2","slug":"railway","kind":"clean","verdict":"clean-ok","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:cruise#clean0","model":"sonnet","task":"cruise#clean0","slug":"cruise","kind":"clean","verdict":"clean-ok","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:cache#9","model":"sonnet","task":"cache#9","slug":"cache","kind":"number 0→1","verdict":"found","claimed":true,"grounded":true,"tried":20,"equivalentMutant":false}
+{"id":"sonnet:plant#2","model":"sonnet","task":"plant#2","slug":"plant","kind":"number 1→2","verdict":"found","claimed":true,"grounded":true,"tried":87,"equivalentMutant":false}
+{"id":"sonnet:pinball#clean1","model":"sonnet","task":"pinball#clean1","slug":"pinball","kind":"clean","verdict":"clean-ok","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:sorter#4","model":"sonnet","task":"sorter#4","slug":"sorter","kind":"select swap","verdict":"missed","claimed":false,"grounded":false,"tried":0,"equivalentMutant":true}
+{"id":"sonnet:insulin#clean0","model":"sonnet","task":"insulin#clean0","slug":"insulin","kind":"clean","verdict":"false-alarm","claimed":true,"grounded":false,"tried":90,"equivalentMutant":false}
+{"id":"sonnet:queue#clean0","model":"sonnet","task":"queue#clean0","slug":"queue","kind":"clean","verdict":"false-alarm","claimed":true,"grounded":false,"tried":42,"equivalentMutant":false}
+{"id":"sonnet:pinball#clean3","model":"sonnet","task":"pinball#clean3","slug":"pinball","kind":"clean","verdict":"clean-ok","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:railway#2","model":"sonnet","task":"railway#2","slug":"railway","kind":"number 0→1","verdict":"missed","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:parking#clean2","model":"sonnet","task":"parking#clean2","slug":"parking","kind":"clean","verdict":"clean-ok","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"sonnet:insulin#clean4","model":"sonnet","task":"insulin#clean4","slug":"insulin","kind":"clean","verdict":"false-alarm","claimed":true,"grounded":true,"tried":7,"equivalentMutant":false}
+{"id":"sonnet:fireflies#6","model":"sonnet","task":"fireflies#6","slug":"fireflies","kind":"select swap","verdict":"found","claimed":true,"grounded":true,"tried":3,"equivalentMutant":false}
+{"id":"sonnet:safe#clean2","model":"sonnet","task":"safe#clean2","slug":"safe","kind":"clean","verdict":"clean-ok","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"haiku:garage#1","model":"haiku","task":"garage#1","slug":"garage","kind":"number 0.001→0.0013","verdict":"wrong-line","claimed":true,"grounded":false,"tried":4,"equivalentMutant":true}
+{"id":"haiku:garage#clean0","model":"haiku","task":"garage#clean0","slug":"garage","kind":"clean","verdict":"false-alarm","claimed":true,"grounded":false,"tried":20,"equivalentMutant":false}
+{"id":"haiku:cruise#7","model":"haiku","task":"cruise#7","slug":"cruise","kind":"number 0→1","verdict":"wrong-line","claimed":true,"grounded":false,"tried":2,"equivalentMutant":true}
+{"id":"haiku:cache#clean0","model":"haiku","task":"cache#clean0","slug":"cache","kind":"clean","verdict":"false-alarm","claimed":true,"grounded":true,"tried":3,"equivalentMutant":false}
+{"id":"haiku:drone#clean2","model":"haiku","task":"drone#clean2","slug":"drone","kind":"clean","verdict":"clean-ok","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"haiku:plant#5","model":"haiku","task":"plant#5","slug":"plant","kind":"number 1→2","verdict":"missed","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"haiku:balancer#2","model":"haiku","task":"balancer#2","slug":"balancer","kind":"number 1→2","verdict":"wrong-line","claimed":true,"grounded":false,"tried":64,"equivalentMutant":false}
+{"id":"haiku:survival#clean2","model":"haiku","task":"survival#clean2","slug":"survival","kind":"clean","verdict":"false-alarm","claimed":true,"grounded":true,"tried":7,"equivalentMutant":false}
+{"id":"haiku:balancer#clean1","model":"haiku","task":"balancer#clean1","slug":"balancer","kind":"clean","verdict":"false-alarm","claimed":true,"grounded":true,"tried":3,"equivalentMutant":false}
+{"id":"haiku:drone#clean0","model":"haiku","task":"drone#clean0","slug":"drone","kind":"clean","verdict":"false-alarm","claimed":true,"grounded":false,"tried":36,"equivalentMutant":false}
+{"id":"haiku:balancer#clean0","model":"haiku","task":"balancer#clean0","slug":"balancer","kind":"clean","verdict":"false-alarm","claimed":true,"grounded":false,"tried":64,"equivalentMutant":false}
+{"id":"haiku:fireflies#9","model":"haiku","task":"fireflies#9","slug":"fireflies","kind":"number 7→8","verdict":"wrong-line","claimed":true,"grounded":true,"tried":26,"equivalentMutant":true}
+{"id":"haiku:cache#clean5","model":"haiku","task":"cache#clean5","slug":"cache","kind":"clean","verdict":"false-alarm","claimed":true,"grounded":true,"tried":3,"equivalentMutant":false}
+{"id":"haiku:balancer#clean4","model":"haiku","task":"balancer#clean4","slug":"balancer","kind":"clean","verdict":"false-alarm","claimed":true,"grounded":true,"tried":32,"equivalentMutant":false}
+{"id":"haiku:cruise#clean1","model":"haiku","task":"cruise#clean1","slug":"cruise","kind":"clean","verdict":"clean-ok","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"haiku:fireflies#clean0","model":"haiku","task":"fireflies#clean0","slug":"fireflies","kind":"clean","verdict":"false-alarm","claimed":true,"grounded":false,"tried":29,"equivalentMutant":false}
+{"id":"haiku:railway#6","model":"haiku","task":"railway#6","slug":"railway","kind":"number 0→1","verdict":"found","claimed":true,"grounded":true,"tried":4,"equivalentMutant":false}
+{"id":"haiku:survival#6","model":"haiku","task":"survival#6","slug":"survival","kind":"number 0→1","verdict":"missed","claimed":false,"grounded":false,"tried":0,"equivalentMutant":true}
+{"id":"haiku:drums#clean0","model":"haiku","task":"drums#clean0","slug":"drums","kind":"clean","verdict":"false-alarm","claimed":true,"grounded":true,"tried":76,"equivalentMutant":false}
+{"id":"haiku:drawbridge#clean3","model":"haiku","task":"drawbridge#clean3","slug":"drawbridge","kind":"clean","verdict":"false-alarm","claimed":true,"grounded":true,"tried":11,"equivalentMutant":false}
+{"id":"haiku:drawbridge#3","model":"haiku","task":"drawbridge#3","slug":"drawbridge","kind":"number 0→1","verdict":"wrong-line","claimed":true,"grounded":true,"tried":5,"equivalentMutant":true}
+{"id":"haiku:insulin#2","model":"haiku","task":"insulin#2","slug":"insulin","kind":"number 0.6→0.75","verdict":"wrong-line","claimed":true,"grounded":false,"tried":72,"equivalentMutant":false}
+{"id":"haiku:drums#clean1","model":"haiku","task":"drums#clean1","slug":"drums","kind":"clean","verdict":"false-alarm","claimed":true,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"haiku:cache#clean4","model":"haiku","task":"cache#clean4","slug":"cache","kind":"clean","verdict":"false-alarm","claimed":true,"grounded":true,"tried":23,"equivalentMutant":false}
+{"id":"haiku:cache#8","model":"haiku","task":"cache#8","slug":"cache","kind":"number 1→2","verdict":"wrong-line","claimed":true,"grounded":false,"tried":30,"equivalentMutant":false}
+{"id":"haiku:drone#0","model":"haiku","task":"drone#0","slug":"drone","kind":"number 1→2","verdict":"missed","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"haiku:cache#clean1","model":"haiku","task":"cache#clean1","slug":"cache","kind":"clean","verdict":"false-alarm","claimed":true,"grounded":false,"tried":2,"equivalentMutant":false}
+{"id":"haiku:survival#1","model":"haiku","task":"survival#1","slug":"survival","kind":"number 0→1","verdict":"missed","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"haiku:survival#3","model":"haiku","task":"survival#3","slug":"survival","kind":"number 0.5→0.625","verdict":"missed","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"haiku:insulin#clean3","model":"haiku","task":"insulin#clean3","slug":"insulin","kind":"clean","verdict":"false-alarm","claimed":true,"grounded":true,"tried":1,"equivalentMutant":false}
+{"id":"haiku:insulin#clean1","model":"haiku","task":"insulin#clean1","slug":"insulin","kind":"clean","verdict":"false-alarm","claimed":true,"grounded":true,"tried":1,"equivalentMutant":false}
+{"id":"haiku:queue#clean1","model":"haiku","task":"queue#clean1","slug":"queue","kind":"clean","verdict":"clean-ok","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"haiku:drums#6","model":"haiku","task":"drums#6","slug":"drums","kind":"number 2→3","verdict":"wrong-line","claimed":true,"grounded":false,"tried":66,"equivalentMutant":false}
+{"id":"haiku:cruise#2","model":"haiku","task":"cruise#2","slug":"cruise","kind":"number 0.4→0.5","verdict":"missed","claimed":false,"grounded":false,"tried":0,"equivalentMutant":false}
+{"id":"haiku:pinball#6","model":"haiku","task":"pinball#6","slug":"pinball","kind":"number 40→41","verdict":"wrong-line","claimed":true,"grounded":true,"tried":5,"equivalentMutant":true}
+{"id":"haiku:insulin#4","model":"haiku","task":"insulin#4","slug":"insulin","kind":"number 1→2","verdict":"wrong-line","claimed":true,"grounded":false,"tried":90,"equivalentMutant":false}
+{"id":"haiku:drawbridge#clean2","model":"haiku","task":"drawbridge#clean2","slug":"drawbridge","kind":"clean","verdict":"false-alarm","claimed":true,"grounded":true,"tried":15,"equivalentMutant":false}
+{"id":"haiku:drums#clean2","model":"haiku","task":"drums#clean2","slug":"drums","kind":"clean","verdict":"false-alarm","claimed":true,"grounded":true,"tried":14,"equivalentMutant":false}
+{"id":"haiku:cache#clean3","model":"haiku","task":"cache#clean3","slug":"cache","kind":"clean","verdict":"false-alarm","claimed":true,"grounded":false,"tried":1,"equivalentMutant":false}
+{"id":"haiku:drawbridge#7","model":"haiku","task":"drawbridge#7","slug":"drawbridge","kind":"number 0→1","verdict":"wrong-line","claimed":true,"grounded":true,"tried":4,"equivalentMutant":true}
+{"id":"haiku:drums#9","model":"haiku","task":"drums#9","slug":"drums","kind":"number 1→2","verdict":"wrong-line","claimed":true,"grounded":false,"tried":127,"equivalentMutant":false}
+{"id":"haiku:drums#clean3","model":"haiku","task":"drums#clean3","slug":"drums","kind":"clean","verdict":"false-alarm","claimed":true,"grounded":true,"tried":14,"equivalentMutant":false}
+{"id":"haiku:drums#0","model":"haiku","task":"drums#0","slug":"drums","kind":"number 1→2","verdict":"wrong-line","claimed":true,"grounded":false,"tried":24,"equivalentMutant":false}
+{"id":"haiku:safe#9","model":"haiku","task":"safe#9","slug":"safe","kind":"select swap","verdict":"wrong-line","claimed":true,"grounded":false,"tried":27,"equivalentMutant":false}
+{"id":"DONE"}

@@ -1,0 +1,218 @@
+{"slug":"garage","index":0,"kind":"select swap","line":36,"outcome":"fail","sites":43}
+{"slug":"garage","index":1,"kind":"number 0.001→0.0013","line":37,"outcome":"pass","sites":43}
+{"slug":"garage","index":2,"kind":"number 1→2","line":28,"outcome":"pass","sites":43}
+{"slug":"garage","index":3,"kind":"below(→above(","line":37,"outcome":"fail","sites":43}
+{"slug":"garage","index":4,"kind":"number 0→1","line":36,"outcome":"fail","sites":43}
+{"slug":"garage","index":5,"kind":"number 0.5→0.625","line":31,"outcome":"pass","sites":43}
+{"slug":"garage","index":6,"kind":"select swap","line":42,"outcome":"fail","sites":43}
+{"slug":"garage","index":7,"kind":"select swap","line":35,"outcome":"fail","sites":43}
+{"slug":"garage","index":8,"kind":"emitMaximum(→emitMinimum(","line":33,"outcome":"fail","sites":43}
+{"slug":"garage","index":9,"kind":"above(→below(","line":34,"outcome":"fail","sites":43}
+{"done":true}
+{"slug":"balancer","index":0,"kind":"number 1000→1001","line":28,"outcome":"pass","sites":37}
+{"slug":"balancer","index":1,"kind":"number 1→2","line":45,"outcome":"fail","sites":37}
+{"slug":"balancer","index":2,"kind":"number 1→2","line":28,"outcome":"pass","sites":37}
+{"slug":"balancer","index":3,"kind":"all(→either(","line":33,"outcome":"fail","sites":37}
+{"slug":"balancer","index":4,"kind":"number 1→2","line":42,"outcome":"pass","sites":37}
+{"slug":"balancer","index":5,"kind":"number 1→2","line":25,"outcome":"fail","sites":37}
+{"slug":"balancer","index":6,"kind":"above(→below(","line":32,"outcome":"fail","sites":37}
+{"slug":"balancer","index":7,"kind":"number 0→1","line":28,"outcome":"pass","sites":37}
+{"slug":"balancer","index":8,"kind":"number 2→3","line":22,"outcome":"fail","sites":37}
+{"slug":"balancer","index":9,"kind":"number 1→2","line":51,"outcome":"pass","sites":37}
+{"slug":"cache","index":0,"kind":"number 1→2","line":53,"outcome":"pass","sites":35}
+{"slug":"cache","index":1,"kind":"number 1→2","line":60,"outcome":"pass","sites":35}
+{"slug":"cache","index":2,"kind":"number 1→2","line":36,"outcome":"fail","sites":35}
+{"slug":"cache","index":3,"kind":"number 1→2","line":26,"outcome":"fail","sites":35}
+{"slug":"cache","index":4,"kind":"number 0→1","line":46,"outcome":"pass","sites":35}
+{"slug":"cache","index":5,"kind":"number 1→2","line":47,"outcome":"pass","sites":35}
+{"slug":"cache","index":6,"kind":"all(→either(","line":39,"outcome":"fail","sites":35}
+{"slug":"cache","index":7,"kind":"all(→either(","line":28,"outcome":"fail","sites":35}
+{"slug":"cache","index":8,"kind":"number 1→2","line":47,"outcome":"pass","sites":35}
+{"slug":"cache","index":9,"kind":"number 0→1","line":24,"outcome":"pass","sites":35}
+{"slug":"cruise","index":0,"kind":"number 0→1","line":34,"outcome":"pass","sites":34}
+{"slug":"cruise","index":1,"kind":"number 1→2","line":34,"outcome":"pass","sites":34}
+{"slug":"cruise","index":2,"kind":"number 0.4→0.5","line":32,"outcome":"pass","sites":34}
+{"slug":"cruise","index":3,"kind":"emitMaximum(→emitMinimum(","line":27,"outcome":"fail","sites":34}
+{"slug":"cruise","index":4,"kind":"number 1→2","line":34,"outcome":"pass","sites":34}
+{"slug":"cruise","index":5,"kind":"emitMinimum(→emitMaximum(","line":26,"outcome":"fail","sites":34}
+{"slug":"cruise","index":6,"kind":"number 1→2","line":37,"outcome":"fail","sites":34}
+{"slug":"cruise","index":7,"kind":"number 0→1","line":36,"outcome":"pass","sites":34}
+{"slug":"cruise","index":8,"kind":"number 1→2","line":31,"outcome":"fail","sites":34}
+{"slug":"cruise","index":9,"kind":"emitMaximum(→emitMinimum(","line":33,"outcome":"fail","sites":34}
+{"slug":"drawbridge","index":0,"kind":"select swap","line":43,"outcome":"fail","sites":81}
+{"slug":"drawbridge","index":1,"kind":"number 0→1","line":26,"outcome":"pass","sites":81}
+{"slug":"drawbridge","index":2,"kind":"atLeast(→above(","line":32,"outcome":"fail","sites":81}
+{"slug":"drawbridge","index":3,"kind":"number 0→1","line":37,"outcome":"pass","sites":81}
+{"slug":"drawbridge","index":4,"kind":"number 0→1","line":42,"outcome":"pass","sites":81}
+{"slug":"drawbridge","index":5,"kind":"number 6→7","line":48,"outcome":"fail","sites":81}
+{"slug":"drawbridge","index":6,"kind":"number 2.2→2.75","line":45,"outcome":"pass","sites":81}
+{"slug":"drawbridge","index":7,"kind":"number 0→1","line":37,"outcome":"pass","sites":81}
+{"slug":"drawbridge","index":8,"kind":"either(→all(","line":36,"outcome":"fail","sites":81}
+{"slug":"drawbridge","index":9,"kind":"number 0.98→1.225","line":56,"outcome":"fail","sites":81}
+{"slug":"drone","index":0,"kind":"number 1→2","line":33,"outcome":"pass","sites":18}
+{"slug":"drone","index":1,"kind":"number 1→2","line":24,"outcome":"fail","sites":18}
+{"slug":"drone","index":2,"kind":"emitMaximum(→emitMinimum(","line":34,"outcome":"fail","sites":18}
+{"slug":"drone","index":3,"kind":"emitMaximum(→emitMinimum(","line":25,"outcome":"fail","sites":18}
+{"slug":"drone","index":4,"kind":"number 20→21","line":28,"outcome":"pass","sites":18}
+{"slug":"drone","index":5,"kind":"number 20→21","line":27,"outcome":"pass","sites":18}
+{"slug":"drone","index":6,"kind":"emitMinimum(→emitMaximum(","line":28,"outcome":"fail","sites":18}
+{"slug":"drone","index":7,"kind":"number 1→2","line":43,"outcome":"fail","sites":18}
+{"slug":"drone","index":8,"kind":"number 1→2","line":32,"outcome":"fail","sites":18}
+{"slug":"drone","index":9,"kind":"number 1→2","line":28,"outcome":"fail","sites":18}
+{"slug":"drums","index":0,"kind":"number 1→2","line":33,"outcome":"pass","sites":30}
+{"slug":"drums","index":1,"kind":"select swap","line":40,"outcome":"fail","sites":30}
+{"slug":"drums","index":2,"kind":"number 1→2","line":33,"outcome":"pass","sites":30}
+{"slug":"drums","index":3,"kind":"number 0→1","line":39,"outcome":"fail","sites":30}
+{"slug":"drums","index":4,"kind":"atLeast(→above(","line":37,"outcome":"fail","sites":30}
+{"slug":"drums","index":5,"kind":"number 60→61","line":35,"outcome":"fail","sites":30}
+{"slug":"drums","index":6,"kind":"number 2→3","line":35,"outcome":"pass","sites":30}
+{"slug":"drums","index":7,"kind":"number 1→2","line":38,"outcome":"fail","sites":30}
+{"slug":"drums","index":8,"kind":"select swap","line":41,"outcome":"fail","sites":30}
+{"slug":"drums","index":9,"kind":"number 1→2","line":43,"outcome":"pass","sites":30}
+{"slug":"elevator","index":0,"kind":"all(→either(","line":68,"outcome":"fail","sites":68}
+{"slug":"elevator","index":1,"kind":"above(→below(","line":29,"outcome":"fail","sites":68}
+{"slug":"elevator","index":2,"kind":"below(→above(","line":68,"outcome":"fail","sites":68}
+{"slug":"elevator","index":3,"kind":"number 0→1","line":71,"outcome":"pass","sites":68}
+{"slug":"elevator","index":4,"kind":"above(→below(","line":55,"outcome":"fail","sites":68}
+{"slug":"elevator","index":5,"kind":"number 0→1","line":66,"outcome":"pass","sites":68}
+{"slug":"elevator","index":6,"kind":"either(→all(","line":28,"outcome":"fail","sites":68}
+{"slug":"elevator","index":7,"kind":"number 1→2","line":36,"outcome":"fail","sites":68}
+{"slug":"elevator","index":8,"kind":"number 1→2","line":40,"outcome":"pass","sites":68}
+{"slug":"elevator","index":9,"kind":"all(→either(","line":55,"outcome":"fail","sites":68}
+{"slug":"fireflies","index":0,"kind":"number 0→1","line":30,"outcome":"fail","sites":21}
+{"slug":"fireflies","index":1,"kind":"number 1→2","line":28,"outcome":"fail","sites":21}
+{"slug":"fireflies","index":2,"kind":"atLeast(→above(","line":23,"outcome":"fail","sites":21}
+{"slug":"fireflies","index":3,"kind":"number 6→7","line":40,"outcome":"pass","sites":21}
+{"slug":"fireflies","index":4,"kind":"atLeast(→above(","line":29,"outcome":"fail","sites":21}
+{"slug":"fireflies","index":5,"kind":"either(→all(","line":24,"outcome":"fail","sites":21}
+{"slug":"fireflies","index":6,"kind":"select swap","line":30,"outcome":"pass","sites":21}
+{"slug":"fireflies","index":7,"kind":"number 6→7","line":41,"outcome":"pass","sites":21}
+{"slug":"fireflies","index":8,"kind":"number 1→2","line":25,"outcome":"pass","sites":21}
+{"slug":"fireflies","index":9,"kind":"number 7→8","line":41,"outcome":"pass","sites":21}
+{"slug":"garage","index":0,"kind":"select swap","line":36,"outcome":"fail","sites":43}
+{"slug":"garage","index":1,"kind":"number 0.001→0.0013","line":37,"outcome":"pass","sites":43}
+{"slug":"garage","index":2,"kind":"number 1→2","line":28,"outcome":"pass","sites":43}
+{"slug":"garage","index":3,"kind":"below(→above(","line":37,"outcome":"fail","sites":43}
+{"slug":"garage","index":4,"kind":"number 0→1","line":36,"outcome":"fail","sites":43}
+{"slug":"garage","index":5,"kind":"number 0.5→0.625","line":31,"outcome":"pass","sites":43}
+{"slug":"garage","index":6,"kind":"select swap","line":42,"outcome":"fail","sites":43}
+{"slug":"garage","index":7,"kind":"select swap","line":35,"outcome":"fail","sites":43}
+{"slug":"garage","index":8,"kind":"emitMaximum(→emitMinimum(","line":33,"outcome":"fail","sites":43}
+{"slug":"garage","index":9,"kind":"above(→below(","line":34,"outcome":"fail","sites":43}
+{"slug":"insulin","index":0,"kind":"number 1→2","line":31,"outcome":"fail","sites":36}
+{"slug":"insulin","index":1,"kind":"number 1→2","line":41,"outcome":"pass","sites":36}
+{"slug":"insulin","index":2,"kind":"number 0.6→0.75","line":37,"outcome":"pass","sites":36}
+{"slug":"insulin","index":3,"kind":"below(→above(","line":33,"outcome":"fail","sites":36}
+{"slug":"insulin","index":4,"kind":"number 1→2","line":49,"outcome":"pass","sites":36}
+{"slug":"insulin","index":5,"kind":"number 3→4","line":41,"outcome":"pass","sites":36}
+{"slug":"insulin","index":6,"kind":"emitMaximum(→emitMinimum(","line":38,"outcome":"fail","sites":36}
+{"slug":"insulin","index":7,"kind":"emitMinimum(→emitMaximum(","line":34,"outcome":"fail","sites":36}
+{"slug":"insulin","index":8,"kind":"number 1→2","line":35,"outcome":"fail","sites":36}
+{"slug":"insulin","index":9,"kind":"number 0.03→0.0375","line":35,"outcome":"pass","sites":36}
+{"slug":"life","index":0,"kind":"number 1→2","line":49,"outcome":"fail","sites":35}
+{"slug":"life","index":1,"kind":"number 0→1","line":36,"outcome":"fail","sites":35}
+{"slug":"life","index":2,"kind":"number 1→2","line":28,"outcome":"fail","sites":35}
+{"slug":"life","index":3,"kind":"number 1→2","line":36,"outcome":"fail","sites":35}
+{"slug":"life","index":4,"kind":"number 1→2","line":36,"outcome":"fail","sites":35}
+{"slug":"life","index":5,"kind":"number 1→2","line":29,"outcome":"fail","sites":35}
+{"slug":"life","index":6,"kind":"atLeast(→above(","line":29,"outcome":"fail","sites":35}
+{"slug":"life","index":7,"kind":"number 1→2","line":27,"outcome":"fail","sites":35}
+{"slug":"life","index":8,"kind":"number 1→2","line":28,"outcome":"fail","sites":35}
+{"slug":"life","index":9,"kind":"number 0→1","line":36,"outcome":"fail","sites":35}
+{"slug":"oven","index":0,"kind":"emitMinimum(→emitMaximum(","line":28,"outcome":"fail","sites":37}
+{"slug":"oven","index":1,"kind":"all(→either(","line":41,"outcome":"fail","sites":37}
+{"slug":"oven","index":2,"kind":"number 50→51","line":28,"outcome":"fail","sites":37}
+{"slug":"oven","index":3,"kind":"emitMaximum(→emitMinimum(","line":28,"outcome":"fail","sites":37}
+{"slug":"oven","index":4,"kind":"number 1→2","line":27,"outcome":"fail","sites":37}
+{"slug":"oven","index":5,"kind":"select swap","line":35,"outcome":"fail","sites":37}
+{"slug":"oven","index":6,"kind":"number 0.2→0.25","line":28,"outcome":"pass","sites":37}
+{"slug":"oven","index":7,"kind":"emitMinimum(→emitMaximum(","line":29,"outcome":"fail","sites":37}
+{"slug":"oven","index":8,"kind":"number 2→3","line":26,"outcome":"fail","sites":37}
+{"slug":"oven","index":9,"kind":"emitMaximum(→emitMinimum(","line":33,"outcome":"fail","sites":37}
+{"slug":"pacemaker","index":0,"kind":"number 60→61","line":30,"outcome":"fail","sites":24}
+{"slug":"pacemaker","index":1,"kind":"number 1→2","line":37,"outcome":"fail","sites":24}
+{"slug":"pacemaker","index":2,"kind":"number 1→2","line":25,"outcome":"fail","sites":24}
+{"slug":"pacemaker","index":3,"kind":"number 1→2","line":26,"outcome":"fail","sites":24}
+{"slug":"pacemaker","index":4,"kind":"select swap","line":38,"outcome":"pass","sites":24}
+{"slug":"pacemaker","index":5,"kind":"number 0→1","line":33,"outcome":"fail","sites":24}
+{"slug":"pacemaker","index":6,"kind":"number 1→2","line":29,"outcome":"fail","sites":24}
+{"slug":"pacemaker","index":7,"kind":"number 1→2","line":25,"outcome":"fail","sites":24}
+{"slug":"pacemaker","index":8,"kind":"atLeast(→above(","line":31,"outcome":"fail","sites":24}
+{"slug":"pacemaker","index":9,"kind":"atLeast(→above(","line":27,"outcome":"fail","sites":24}
+{"slug":"parking","index":0,"kind":"below(→above(","line":34,"outcome":"fail","sites":17}
+{"slug":"parking","index":1,"kind":"all(→either(","line":27,"outcome":"fail","sites":17}
+{"slug":"parking","index":2,"kind":"number 0→1","line":27,"outcome":"pass","sites":17}
+{"slug":"parking","index":3,"kind":"number 1→2","line":28,"outcome":"fail","sites":17}
+{"slug":"parking","index":4,"kind":"number 1→2","line":31,"outcome":"fail","sites":17}
+{"slug":"parking","index":5,"kind":"select swap","line":32,"outcome":"pass","sites":17}
+{"slug":"parking","index":6,"kind":"number 1→2","line":29,"outcome":"fail","sites":17}
+{"slug":"parking","index":7,"kind":"all(→either(","line":25,"outcome":"fail","sites":17}
+{"slug":"parking","index":8,"kind":"all(→either(","line":26,"outcome":"fail","sites":17}
+{"slug":"parking","index":9,"kind":"select swap","line":33,"outcome":"pass","sites":17}
+{"slug":"pinball","index":0,"kind":"select swap","line":81,"outcome":"fail","sites":94}
+{"slug":"pinball","index":1,"kind":"number 8→9","line":74,"outcome":"fail","sites":94}
+{"slug":"pinball","index":2,"kind":"number 0.6→0.75","line":79,"outcome":"pass","sites":94}
+{"slug":"pinball","index":3,"kind":"number 0→1","line":39,"outcome":"pass","sites":94}
+{"slug":"pinball","index":4,"kind":"below(→above(","line":67,"outcome":"fail","sites":94}
+{"slug":"pinball","index":5,"kind":"number 10→11","line":62,"outcome":"pass","sites":94}
+{"slug":"pinball","index":6,"kind":"number 40→41","line":81,"outcome":"pass","sites":94}
+{"slug":"pinball","index":7,"kind":"all(→either(","line":67,"outcome":"fail","sites":94}
+{"slug":"pinball","index":8,"kind":"select swap","line":79,"outcome":"fail","sites":94}
+{"slug":"pinball","index":9,"kind":"number 40→41","line":80,"outcome":"pass","sites":94}
+{"slug":"plant","index":0,"kind":"number 1→2","line":29,"outcome":"fail","sites":24}
+{"slug":"plant","index":1,"kind":"number 1→2","line":32,"outcome":"pass","sites":24}
+{"slug":"plant","index":2,"kind":"number 1→2","line":29,"outcome":"pass","sites":24}
+{"slug":"plant","index":3,"kind":"number 0→1","line":29,"outcome":"fail","sites":24}
+{"slug":"plant","index":4,"kind":"emitMinimum(→emitMaximum(","line":30,"outcome":"fail","sites":24}
+{"slug":"plant","index":5,"kind":"number 1→2","line":31,"outcome":"pass","sites":24}
+{"slug":"plant","index":6,"kind":"number 0.9→1.125","line":27,"outcome":"fail","sites":24}
+{"slug":"plant","index":7,"kind":"number 0.95→1.1875","line":28,"outcome":"fail","sites":24}
+{"slug":"plant","index":8,"kind":"number 0.06→0.075","line":29,"outcome":"pass","sites":24}
+{"slug":"plant","index":9,"kind":"number 0.05→0.0625","line":28,"outcome":"fail","sites":24}
+{"slug":"queue","index":0,"kind":"number 1→2","line":32,"outcome":"fail","sites":28}
+{"slug":"queue","index":1,"kind":"all(→either(","line":28,"outcome":"fail","sites":28}
+{"slug":"queue","index":2,"kind":"emitMinimum(→emitMaximum(","line":31,"outcome":"fail","sites":28}
+{"slug":"queue","index":3,"kind":"above(→below(","line":28,"outcome":"fail","sites":28}
+{"slug":"queue","index":4,"kind":"number 1→2","line":31,"outcome":"fail","sites":28}
+{"slug":"queue","index":5,"kind":"number 0.25→0.3125","line":29,"outcome":"pass","sites":28}
+{"slug":"queue","index":6,"kind":"number 1→2","line":34,"outcome":"fail","sites":28}
+{"slug":"queue","index":7,"kind":"number 1→2","line":40,"outcome":"pass","sites":28}
+{"slug":"queue","index":8,"kind":"number 1→2","line":32,"outcome":"fail","sites":28}
+{"slug":"queue","index":9,"kind":"number 1→2","line":35,"outcome":"fail","sites":28}
+{"slug":"railway","index":0,"kind":"all(→either(","line":31,"outcome":"fail","sites":41}
+{"slug":"railway","index":1,"kind":"number 0→1","line":42,"outcome":"fail","sites":41}
+{"slug":"railway","index":2,"kind":"number 0→1","line":36,"outcome":"pass","sites":41}
+{"slug":"railway","index":3,"kind":"below(→above(","line":26,"outcome":"fail","sites":41}
+{"slug":"railway","index":4,"kind":"number 0→1","line":28,"outcome":"pass","sites":41}
+{"slug":"railway","index":5,"kind":"all(→either(","line":57,"outcome":"fail","sites":41}
+{"slug":"railway","index":6,"kind":"number 0→1","line":59,"outcome":"pass","sites":41}
+{"slug":"railway","index":7,"kind":"number 1→2","line":35,"outcome":"fail","sites":41}
+{"slug":"railway","index":8,"kind":"select swap","line":51,"outcome":"fail","sites":41}
+{"slug":"railway","index":9,"kind":"number 0.6→0.75","line":44,"outcome":"pass","sites":41}
+{"slug":"safe","index":0,"kind":"number 0→1","line":39,"outcome":"pass","sites":47}
+{"slug":"safe","index":1,"kind":"select swap","line":30,"outcome":"fail","sites":47}
+{"slug":"safe","index":2,"kind":"number 1→2","line":38,"outcome":"pass","sites":47}
+{"slug":"safe","index":3,"kind":"above(→below(","line":29,"outcome":"fail","sites":47}
+{"slug":"safe","index":4,"kind":"number 1→2","line":33,"outcome":"fail","sites":47}
+{"slug":"safe","index":5,"kind":"number 0→1","line":39,"outcome":"fail","sites":47}
+{"slug":"safe","index":6,"kind":"number 1→2","line":33,"outcome":"fail","sites":47}
+{"slug":"safe","index":7,"kind":"number 0→1","line":33,"outcome":"fail","sites":47}
+{"slug":"safe","index":8,"kind":"all(→either(","line":33,"outcome":"fail","sites":47}
+{"slug":"safe","index":9,"kind":"select swap","line":39,"outcome":"pass","sites":47}
+{"slug":"sorter","index":0,"kind":"above(→below(","line":30,"outcome":"fail","sites":61}
+{"slug":"sorter","index":1,"kind":"number 1→2","line":51,"outcome":"pass","sites":61}
+{"slug":"sorter","index":2,"kind":"below(→above(","line":34,"outcome":"fail","sites":61}
+{"slug":"sorter","index":3,"kind":"all(→either(","line":47,"outcome":"fail","sites":61}
+{"slug":"sorter","index":4,"kind":"select swap","line":31,"outcome":"pass","sites":61}
+{"slug":"sorter","index":5,"kind":"all(→either(","line":30,"outcome":"fail","sites":61}
+{"slug":"sorter","index":6,"kind":"select swap","line":52,"outcome":"pass","sites":61}
+{"slug":"sorter","index":7,"kind":"all(→either(","line":28,"outcome":"fail","sites":61}
+{"slug":"sorter","index":8,"kind":"all(→either(","line":35,"outcome":"fail","sites":61}
+{"slug":"sorter","index":9,"kind":"select swap","line":33,"outcome":"fail","sites":61}
+{"slug":"survival","index":0,"kind":"above(→below(","line":44,"outcome":"fail","sites":51}
+{"slug":"survival","index":1,"kind":"number 0→1","line":39,"outcome":"pass","sites":51}
+{"slug":"survival","index":2,"kind":"above(→below(","line":56,"outcome":"fail","sites":51}
+{"slug":"survival","index":3,"kind":"number 0.5→0.625","line":56,"outcome":"pass","sites":51}
+{"slug":"survival","index":4,"kind":"select swap","line":50,"outcome":"fail","sites":51}
+{"slug":"survival","index":5,"kind":"number 0→1","line":44,"outcome":"fail","sites":51}
+{"slug":"survival","index":6,"kind":"number 0→1","line":42,"outcome":"pass","sites":51}
