@@ -1,0 +1,23 @@
+.gitignore
+  s_5ddfc8f4108175::t_44d029d6400f5b 5
+spikes/predict/result.json
+  s_5ddfc8f4108175::t_8eed8d84e4b0f8 1-65
+spikes/predict/tape.py
+  s_5ddfc8f4108175::t_634bd85f5aaef9 1-85
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "0065c2d3048f9dcff968cd014ce6789e4585649d",
+  "prompts": {},
+  "sessions": {
+    "s_5ddfc8f4108175": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a0fc06-d951-77a8-8358-cd5dae6891bd",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jordan Coeyman <jcoeyman@cloudflare.com>"
+    }
+  }
+}
