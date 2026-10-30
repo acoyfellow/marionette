@@ -1,0 +1,23 @@
+client/index.html
+  s_5ddfc8f4108175::t_64019cffa37e23 10-17,19-29,35
+client/src/entry.ts
+  s_5ddfc8f4108175::t_ff785034806273 21,26-42,45-68
+scripts/gate-pages.mjs
+  s_5ddfc8f4108175::t_6088da1b883a29 36
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "0832b3334a41a235233727202c26eacaf631599e",
+  "prompts": {},
+  "sessions": {
+    "s_5ddfc8f4108175": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a0fc06-d951-77a8-8358-cd5dae6891bd",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jordan Coeyman <jcoeyman@cloudflare.com>"
+    }
+  }
+}
